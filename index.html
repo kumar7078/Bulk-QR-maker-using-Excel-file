@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bulk QR Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.5/xlsx.full.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Bulk QR Generator</h1>
+        <div class="form-container">
+            <h2>Merchant Details</h2>
+            <input type="text" id="merchantName" placeholder="Merchant Name">
+            <input type="text" id="merchantUPI" placeholder="Merchant UPI ID">
+            <select id="businessType">
+                <option value="cafe">Cafe</option>
+                <option value="bakery shop">Bakery Shop</option>
+                <option value="vine shop">Vine Shop</option>
+                <option value="pizza hut">Pizza Hut</option>
+                <option value="Gift Shop"></option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div class="upload-container" style="text-align:center;
+        text-anchor:inherit;
+        text-decoration:initial;">
+            <h2>Upload Excel File</h2>
+            <input type="file" id="excelFile" accept=".xlsx, .xls">
+            <button onclick="processFile()">Generate QR Codes</button>
+        </div>
+
+        <table id="customerTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Order Name</th>
+                    <th>Amount</th>
+                    <th>QR code</th>
+                    <th>Share</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+
+        <button id="downloadExcel">Download Updated File</button>
+        <button id="shareAll">Share All QR Codes</button>
+    
+    </div>
+       
+    <!-- Footer Section -->
+<footer class="footer">
+    <p>Made with ❤️ by SettleQR  </p>
+    
+            <a href="https://www.instagram.com/ravann.ai/">Instagram</a></li>
+            <a href="https://github.com/kumar7078">Github</a>
+            <a href="https://www.linkedin.com/in/kumar7078/">Linkedin</a>
+            <a href="#">Youtube</a>
+<p>&copy; 2025 All Rights Reserved.</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

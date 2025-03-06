@@ -1,0 +1,166 @@
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 5;
+    padding: 119;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  background-image:url(https://img1.cgtrader.com/items/4426095/a3672845cd/qr-code-3d-3d-model-a3672845cd.jpg);
+}
+
+.container {
+    width:100%;
+    max-width: 90%;
+    background-color: white;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    text-align: center;
+    margin-bottom: 6px;
+    padding: 26px;
+    border: 7px solid #e0e0e0;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.form-container input, .form-container select, .form-container button {
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: calc(100% - 24px);
+    max-width: 350px;
+    font-size: 16px;
+}
+
+.form-container button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    width: auto;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+#customerTable {
+    max-width: 90%;
+    border-collapse: collapse;
+    margin-top: 19px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#customerTable th, #customerTable td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#customerTable th {
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+}
+
+#downloadExcel, #shareAll {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#downloadExcel:hover, #shareAll:hover {
+    background-color: #218838;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.action-buttons img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.qr-card {
+    text-align: center;
+    padding: 20px;
+    border: 6px solid #ddc;
+    border-radius: 8px;
+    margin: -8px auto;
+    width: 297px;
+    display: table;
+}
+
+.qr-card h3 {
+    margin-bottom: 10px;
+}
+
+.qr-card img {
+    margin: 10px 0;
+}
+
+.upi-logos img {
+    width: 32px;
+    margin: 5px;
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+
+/* Footer Styling */
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add a subtle hover effect */
+.footer p {
+    margin: 5px 0;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer p:hover {
+    color: #00f2fe;
+
+
+    </style>
